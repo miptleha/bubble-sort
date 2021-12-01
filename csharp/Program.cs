@@ -5,6 +5,12 @@ namespace csharp
 {
     class Program
     {
+        static void Check(ref int i, ref int j)
+        {
+            if (i > j)
+                (i, j) = (j, i);
+        }
+
         static void Main(string[] args)
         {
             int n = 10000;
@@ -19,8 +25,7 @@ namespace csharp
             {
                 for (int j = i + 1; j < n; j++)
                 {
-                    if (a[i] > a[j])
-                        (a[i], a[j]) = (a[j], a[i]);
+                    Check(ref a[i], ref a[j]);
                 }
             }
             sw.Stop();

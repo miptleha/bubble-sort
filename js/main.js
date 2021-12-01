@@ -1,5 +1,13 @@
 const {performance} = require('perf_hooks');
 
+function check(a, i, j) {
+    if (a[i] > a[j]) {
+        var tmp = a[i];
+        a[i] = a[j];
+        a[j] = tmp;
+    }
+}
+
 var n = 10000;
 var a = [];
 for (var i = 0; i < n; i++)
@@ -8,11 +16,7 @@ for (var i = 0; i < n; i++)
 var start = performance.now();
 for (var i = 0; i < n - 1; i++) {
     for (var j = i + 1; j < n; j++) {
-        if (a[i] > a[j]) {
-            var tmp = a[i];
-            a[i] = a[j];
-            a[j] = tmp;
-        }
+        check(a, i, j);
     }
 }
 var end = performance.now();
