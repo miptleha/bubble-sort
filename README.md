@@ -7,7 +7,11 @@ All code written and run under [Visual Studio Code]() (with required compilers a
 ## Time of execution
 Measure bubble sort for array with 10000 elements.   
 |Language|Compiler|Time (seconds)|
+|-|-|-|
 |Python|Python 3.10|13.3|
+|-|-|-|
 |C#|.NET Core 5|0.1315|
+|-|-|-|
 |C++|g++ 11|0.1314|
+|-|-|-|
 |JavaScript|Node 10|0.1316|
