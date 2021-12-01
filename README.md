@@ -1,4 +1,4 @@
-Measure time of execution of bubble sort algorithm in different programming languages
+Measure time of execution of bubble sort algorithm in different programming languages.
 
 This is set of console applications.   
 Currently write for [python](python/main.py), [c#](csharp/Program.cs), [c++](cpp/main.cpp), [javascript](js/main.js).   
