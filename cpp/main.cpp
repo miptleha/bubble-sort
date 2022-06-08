@@ -11,6 +11,14 @@ void check(int& i, int& j)
     }
 }
 
+void sort(int a[], int n) {
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = i + 1; j < n; j++) {
+            check(a[i], a[j]);
+        }
+    }
+}
+
 int main()
 {
     int n = 10000;
@@ -21,11 +29,7 @@ int main()
         cout << a[i] << endl;
     cout << endl;*/
     clock_t start = clock();
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = i + 1; j < n; j++) {
-            check(a[i], a[j]);
-        }
-    }
+    sort(a, n);
     clock_t end = clock();
     /*for (int i = 0; i < n; i++)
         cout << a[i] << endl;*/
