@@ -20,7 +20,7 @@ Run on Acer Swift 3 with Core-i5.
 ## Bonus: maximim subarray sum calculation
 The task of finding a [contiguous subarray with the largest sum](https://en.wikipedia.org/wiki/Maximum_subarray_problem).   
 Use O(n) algorithm. Sum for 10000 elements calculates 10000 times.   
-[Python](python2/main.py), [C#](csharp2/Program.cs), [C++](cpp2/main.cpp), [JavaScript](js2/main.js).
+Code: [Python](python2/main.py), [C#](csharp2/Program.cs), [C++](cpp2/main.cpp), [JavaScript](js2/main.js).
 
 |Language|Compiler|Time (seconds)| Time with optimization (seconds)|
 |-|-|-|-|
