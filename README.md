@@ -5,7 +5,7 @@ Currently write for [Python](python/main.py), [C#](csharp/Program.cs), [C++](cpp
 All code written and run under [Visual Studio Code](https://code.visualstudio.com/) (with required compilers and extensions) in Windows 10.
 
 ## Time of execution
-Measure bubble sort for array with 10000 elements.   
+Measure [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) for integer array with 10000 elements.   
 Changing elements is done in a function to measure the function call.     
 If possible, compiled debug and release (with optimization) versions of executable files.   
 Run on Acer Swift 3 with Core-i5 on Windows 10.
