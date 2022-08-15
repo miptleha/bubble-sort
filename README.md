@@ -8,7 +8,7 @@ Run on Acer Swift 3 with Core-i5.
 
 ## Time of execution
 Measure [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) for integer array with 10000 elements.   
-Changing elements is done in a function to measure the function call.     
+Changing elements is done in a function to add the function call lag (optimization makes functions inline).     
 
 |Language|Compiler|Time of execution (seconds)| Time with optimization (seconds)|
 |-|-|-|-|
