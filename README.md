@@ -2,7 +2,7 @@ Measure time of execution of bubble sort algorithm in different programming lang
 
 This is set of console applications.   
 Currently write for [Python](python/main.py), [C#](csharp/Program.cs), [C++](cpp/main.cpp), [JavaScript](js/main.js).   
-All code written and run under [Visual Studio Code](https://code.visualstudio.com/) (with required compilers and extensions) in Windows 10.
+All code written and run under [Visual Studio Code](https://code.visualstudio.com/) (with required compilers and extensions) in Windows 10.   
 If possible, compiled debug and release (with optimization) versions of executable files.   
 Run on Acer Swift 3 with Core-i5.
 
