@@ -12,7 +12,7 @@ Changing elements is done in a function to measure the function call.
 
 |Language|Compiler|Time of execution (seconds)| Time with optimization (seconds)|
 |-|-|-|-|
-|Python|Python 3.10|8.5|-|
+|Python|CPython 3.10|8.5|-|
 |C#|.NET 5|0.28|0.042|
 |C++|g++ 11|0.23|0.031|
 |JavaScript|Node.JS 16|0.058|-|
@@ -24,7 +24,7 @@ Code: [Python](python2/main.py), [C#](csharp2/Program.cs), [C++](cpp2/main.cpp),
 
 |Language|Compiler|Time of execution (seconds)| Time with optimization (seconds)|
 |-|-|-|-|
-|Python|Python 3.10|15.4|-|
+|Python|CPython 3.10|15.4|-|
 |C#|.NET 5|0.35|0.14|
 |C++|g++ 11|0.36|0.09|
 |JavaScript|Node.JS 16|0.10|-|
