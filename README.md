@@ -6,13 +6,16 @@ All code written and run under [Visual Studio Code](https://code.visualstudio.co
 If possible, compiled debug and release (with optimization) versions of executable files.   
 Run on Acer Swift 3 with Core-i5.
 
+## How to run
+Enter the appropriate folder, optionally compile, and run the code.
+
 ## Time of execution
 Measure [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) for integer array with 10000 elements.   
 Changing elements is done in a function to add the function call lag (optimization makes functions inline).     
 
 |Language|Compiler|Time of execution (seconds)| Time with optimization (seconds)|
 |-|-|-|-|
-|Python|CPython 3.10|8.5|-|
+|Python|CPython 3.11.4|6.1|-|
 |C#|.NET 5|0.28|0.042|
 |C++|g++ 11|0.23|0.031|
 |JavaScript|Node.JS 16|0.058|-|
@@ -24,7 +27,7 @@ Code: [Python](python2/main.py), [C#](csharp2/Program.cs), [C++](cpp2/main.cpp),
 
 |Language|Compiler|Time of execution (seconds)| Time with optimization (seconds)|
 |-|-|-|-|
-|Python|CPython 3.10|15.4|-|
+|Python|CPython 3.11.4|16.1|-|
 |C#|.NET 5|0.35|0.14|
 |C++|g++ 11|0.36|0.09|
 |JavaScript|Node.JS 16|0.10|-|
